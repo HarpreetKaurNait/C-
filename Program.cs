@@ -15,7 +15,7 @@ namespace array_found
             int.TryParse(Console.ReadLine(), out int  search);
             int found = Array.BinarySearch(array, search);
             Console.WriteLine($"found={found}");
-          
+                  Console.WriteLine($"found={found}");
             Console.ReadKey();
         }
     }
