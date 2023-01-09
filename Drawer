@@ -16,8 +16,8 @@ namespace assignment_5
 
         {
             int xsatrt, ystart, xend, yend,thickness;
-            Console.Write("enter the value for X start =");
-            int.TryParse(Console.ReadLine(), out xstart);
+            Console.Write("enter the value for X satrt =");
+            int.TryParse(Console.ReadLine(), out xsatrt);
             Console.Write("enter the value for y satrt =");
             int.TryParse(Console.ReadLine(), out ystart);
             Console.Write("enter the value for X end =");
